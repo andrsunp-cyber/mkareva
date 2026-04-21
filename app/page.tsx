@@ -47,7 +47,7 @@ export default function Home() {
         />
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute right-0 top-0 w-[85%] md:w-[70%] lg:w-[60%] max-w-[860px] translate-x-[22%] -translate-y-[18%] text-ink/[0.14] dark:text-dark-text/[0.08] z-0"
+          className="pointer-events-none absolute right-0 top-[35%] md:top-0 w-[120%] md:w-[70%] lg:w-[60%] max-w-[860px] translate-x-[15%] md:translate-x-[22%] -translate-y-0 md:-translate-y-[18%] text-ink/[0.09] md:text-ink/[0.14] dark:text-dark-text/[0.06] md:dark:text-dark-text/[0.08] z-0"
         >
           <HandDraw />
         </div>

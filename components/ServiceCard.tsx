@@ -24,7 +24,7 @@ export default function ServiceCard({ name, price, desc, before, after, index }:
       className="group relative overflow-hidden bg-white dark:bg-dark-surface rounded-sm border border-ink/10 dark:border-dark-border hover:border-accent/50 dark:hover:border-accent/60 hover:shadow-xl hover:shadow-accent/10 transition-all duration-500"
     >
       {/* Фото: по умолчанию — После, при hover — До */}
-      <div className="relative aspect-[4/5] bg-sand dark:bg-dark-surface-2 overflow-hidden">
+      <div className="relative aspect-square sm:aspect-[4/5] bg-sand dark:bg-dark-surface-2 overflow-hidden">
         {/* После — базовый слой */}
         <Image
           src={after}
