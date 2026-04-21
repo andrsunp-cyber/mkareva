@@ -47,9 +47,11 @@ export default function Home() {
         />
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute right-0 top-[35%] md:top-0 w-[120%] md:w-[70%] lg:w-[60%] max-w-[860px] translate-x-[15%] md:translate-x-[22%] -translate-y-0 md:-translate-y-[18%] text-ink/[0.09] md:text-ink/[0.14] dark:text-dark-text/[0.06] md:dark:text-dark-text/[0.08] z-0"
+          className="pointer-events-none absolute left-0 right-0 top-[55%] md:left-auto md:right-0 md:top-0 w-full md:w-[70%] lg:w-[60%] max-w-none md:max-w-[860px] md:translate-x-[22%] md:-translate-y-[18%] flex justify-center md:block text-ink/[0.08] md:text-ink/[0.14] dark:text-dark-text/[0.05] md:dark:text-dark-text/[0.08] z-0"
         >
-          <HandDraw />
+          <div className="w-[140%] md:w-full -translate-x-[5%] md:translate-x-0">
+            <HandDraw />
+          </div>
         </div>
 
         <div className="relative z-10 mx-auto max-w-6xl px-5">
